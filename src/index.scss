@@ -416,9 +416,9 @@ div.hero h2 {
   text-align: center;
   margin: 0;
 }
-
+$main-color:#fff;
 div.hero h1 {
-  color: #fff;
+  color: $main-color;
   font-size: 4.2em;
   margin-bottom: 20px;
 }
@@ -447,7 +447,7 @@ div.hero h2 {
   text-align: center;
 }
 
-.container section.text-box {
+.container article.text-box {
   display: inline-block;
   width: 100%;
   max-width: 340px;

@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,7 +13,7 @@ import AboutPage from './AboutPage/AboutPage';
 import LoginPage from './LoginPage/LoginPage';
 import Footer from './Footer/Footer';
 
-function App() {
+const App = () =>  {
   return (
     <Router >
       <Menu/>
@@ -34,6 +34,6 @@ function App() {
       <Footer/>
     </Router>
   );
-}
+};
 
 export default App;
